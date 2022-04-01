@@ -1,0 +1,141 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+.container{
+    width: 974px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+  
+body{
+    overflow: auto;
+  height: 4000px;
+  margin: 0;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 18px;
+}
+
+.container {
+    width: 974px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+  }
+  
+  .header {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    max-height: 88px;
+    height: 88px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 40px;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+  
+    font-family: "Gilroy-Bold", sans-serif;
+    font-weight: bold;
+  
+    background-color: #ffffff;
+  }
+  
+  .menu ul {
+    height: 88px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .menu::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #828282;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: #828282;
+  }
+  
+  a:active {
+    color: #070707;
+  }
+  
+  a:visited {
+    color: #828282;
+  }
+  
+  a:hover {
+    color: #070707;
+  }
+
+.top{
+    padding-bottom: 100px;
+}
+
+.top__heading{
+    padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #070707;
+
+}
+
+.top__content{
+    text-align: center;
+    padding-top: 90px;
+    width: 50%;
+}
+
+.top__content-name{
+    font-size: 47.34px;
+  font-weight: bold;
+
+}
+.lang{
+    display: flex;
+  align-items: flex-end;
+  transform: rotate(-90deg);
+  margin-bottom: 0px;
+  padding-top: 46px;
+  font-weight: bold;
+
+}
+.top__item-img{
+    padding-bottom: 104px;
+}
+.top__text{
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 auto 60px;
+    max-width: 470px;
+}
+
+.top__item{
+    padding-bottom: 104px;
+}
