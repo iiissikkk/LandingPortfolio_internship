@@ -139,3 +139,30 @@ body{
 .top__item{
     padding-bottom: 104px;
 }
+
+.about{
+  background-color: #F6F6F6;
+}
+
+.about__inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 506px;
+  color: #070707;
+}
+
+.about__top-content{
+  padding-bottom: 17px;
+  font-size: 33px;
+}
+
+.about__content{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 218px;
+  font-size: 18px;
+}
