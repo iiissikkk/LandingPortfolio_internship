@@ -21,25 +21,28 @@ dd {
   margin: 0;
 }
 
+.text {
+  font-family: "Gilroy-Bold",
+  sans-serif;
+}
+
+body {
+  overflow: auto;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 18px;
+}
+
 .container {
   width: 974px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
   
-body {
-    overflow: auto;
-  height: 4000px;
-  margin: 0;
-  font-family: "Gilroy-Medium", sans-serif;
-  font-size: 18px;
-}
-
 .container {
-    width: 974px;
-    margin: 0 auto;
-    padding: 0 15px 0 15px;
-  }
+  width: 974px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
   
 .header {
   position: sticky;
@@ -122,7 +125,7 @@ a:hover {
   font-weight: bold;
 }
 
-.top__item-img {
+.top__img {
   padding-bottom: 104px;
 }
 
@@ -131,10 +134,6 @@ a:hover {
   line-height: 28px;
   margin: 0 auto 60px;
   max-width: 470px;
-}
-
-.top__item {
-    padding-bottom: 104px;
 }
 
 .about {
@@ -166,17 +165,20 @@ a:hover {
 
 .container {
   width: 974px;
-  margin: 0px auto;
-  padding: 0px 15px;
 }
 
+.skills__inner{
+  height: 600px;
+}
 .skills__top-content {
+  font-size: 18px;
   flex-direction: column;
   text-align: center;
   justify-content: space-between;
 }
 
 .skills__top-content h2 {
+  font-size: 33px;
   padding-top: 91px;
   padding-bottom: 69px;
 }
@@ -190,21 +192,62 @@ a:hover {
   flex-direction: row;
   justify-content: space-between;
   text-align: center;
+  padding-bottom: 110px;
 }
 
-.skills__item-tittle{
+.skills__item-tittle {
   padding-top: 24px;
   padding-bottom: 40px;
   font-size: 14px;
   color: #828282;
 } 
 
-.skills__item-stars{
+.skills__item-stars {
   border-top: 40px;
+  padding-bottom: 110px;
   display: flex;
   width: 166px;
 }
 
-.skills_item-imgFigma{
+.skills_item-imgFigma {
   padding-bottom: 17px;
+}
+
+.portfolio {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio__top-tittle {
+  font-size: 22px;
+  text-align: center;
+  padding: 112px 0 47px 0;
+  font-weight: bold;
+  color: #070707;
+}
+
+.portfolio__img-link {
+  width: 944px;
+  transition: 1s;
+}
+
+.portfolio__img-link:hover {
+  transform: scale(1.05);
+}
+
+.portfolio__brend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio__tittle-link {
+  padding-top: 45px;
+  padding-bottom: 99px;
+}
+
+.portfolio__tittle-link:link {
+  text-decoration: underline;
 }
