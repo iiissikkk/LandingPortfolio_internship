@@ -56,10 +56,8 @@ body {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  
   font-family: "Gilroy-Bold", sans-serif;
   font-weight: bold;
-  
   background-color: #ffffff;
 }
   
@@ -167,7 +165,7 @@ a:hover {
   width: 974px;
 }
 
-.skills__inner{
+.skills__inner {
   height: 600px;
 }
 .skills__top-content {
