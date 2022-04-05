@@ -249,3 +249,78 @@ a:hover {
 .portfolio__tittle-link:link {
   text-decoration: underline;
 }
+
+.footer__inner {
+  text-align: center;
+  padding: 114px 0 86px 0;
+}
+
+.footer__top {
+  width: 275px;
+  height: 195px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__title {
+  font-weight: bold;
+  font-size: 34px;
+  padding-bottom: 25px;
+}
+
+.message-btn {
+  height: 42px;
+  width: 180px;
+  text-align:center;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 23px;
+  outline: none;
+  border: 0px;
+  font-weight: 500;
+  font-size: 18px;
+  transition: all 0.8s;
+  background-color: #070707;
+}
+
+.message-btn:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.message-btn a {
+  color: white;
+}
+
+.footer__inner p {
+  color: black;
+  font-size: 18px;
+}
+
+.footer__bottom {
+  max-width: 342px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 45px;
+  margin: 0 auto;
+}
+
+.footer__bottom-text {
+  font-size: 14px;
+  color: #828282;
+  text-align: center;
+  padding-bottom: 116px;
+}
+
+.footer__social-img {
+  filter: grayscale(100%);
+  transition: filter 0.2s linear;
+  }
+  
+.footer__social-img:hover {
+    filter: none;
+}
