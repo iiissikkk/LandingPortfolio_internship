@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -9,12 +11,12 @@
       <div class="container">
         <div class="header__innner">
           <nav class="menu">
-            <ul class="menu_list">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About me</a></li>
-              <li><a href="#">Skills</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Contacts</a></li>
+            <ul class="menu__list">
+              <li><a href="#home" class="menu__list-link">Home</a></li>
+              <li><a href="#about" class="menu__list-link">About me</a></li>
+              <li><a href="#skills" class="menu__list-link">Skills</a></li>
+              <li><a href="#portfolio" class="menu__list-link">Portfolio</a></li>
+              <li><a href="#contacts" class="menu__list-link">Contacts</a></li>
             </ul>
           </nav>
         </div>
@@ -22,7 +24,7 @@
     </header>
 
     <main>
-      <section class="top">
+      <section class="top" id="home">
         <div class="container">
           <div class="top__heading">
             <div class="top__content-name">
@@ -37,26 +39,39 @@
           </div>
           <div class="top__bottom">
             <div class="top__item-img">
-              <img src="images/DenisNovik.svg" alt="profile picture" class="top__img">
+              <img src="images/denisnovik.png" alt="profile picture" class="top__img">
+              <img src="images/denisnovikmedia.png" alt="profile picture" class="top__img-media">
+            </div>
+          </div>
+          <div class="heading__menu">
+            <div class="menu__btn" type="button">
+              <span class="menu__item">
+                <span></span>
+              </span>
             </div>
           </div>
         </div>
       </section>
     
-      <section class="about">
+      <section class="about" id="about">
         <div class="container">
           <div class="about__inner">
             <h2 class="about__top-content">About me</h2>
             <div class="about__content">
-              <p class="about-text">Hi, I'm Denis - UX/UI designer from Minsk.<br>I'minterested in design and everything connected with it.</p>
-              <p class="about-text">I'm studying at courses "Web and mobiledesign<br>interfaces" in IT-Academy.</p>
-              <p class="about-text">Ready to implement excellent projects<br>with wonderfulpeople.</p>
+              <p>Hi, I'm Denis – UX/UI designer from Minsk. <br class="content__br">
+                I'm interested in design and everything connected with it. </p>
+              
+              <p> I'm studying at courses <br class="content__media"> "Web and mobile design <br class="content__br">
+                interfaces" in IT-Academy. </p>
+              
+              <p> Ready to implement excellent projects <br class="content__br">
+                with wonderful people.</p>
             </div>
           </div>
         </div>
       </section>
-    
-      <section class="skills">
+
+      <section class="skills" id="skills">
         <div class="container">
           <div class="skills__inner">
             <div class="skills__top-content">
@@ -113,7 +128,7 @@
         </div>
       </section>
 
-      <section class="portfolio">
+      <section class="portfolio" id="portfolio">
         <div class="container">
           <div class="portfolio__inner">
             <div class="portfolio__top-tittle">
@@ -135,30 +150,32 @@
         </div>
       </section>
 
-      <footer class="footer">
+      <footer class="footer" id="contacts">
         <div class="container">
           <div class="footer__inner">
             <div class="footer__top">
-              <h2 class="footer__tittle">Contanct</h2>
+              <h2 class="footer__tittle">Contancts</h2>
               <p class="footer__text">Want to know more or just chat?<br>You are welcome!</p>
               <button class="message-btn"><a href="mailto:islam.like@mail.ru">Send message</a></button>
             </div>
+            <div class="footer__bottom">
+              <a class="footer__social-link" href="//ru.wikipedia.org/wiki/LinkedIn">
+                <img class="footer__social-img" src="images/link.png" alt="LinkedIn">
+              </a>
+              <a class="footer__social-link" href="//ru.wikipedia.org/wiki/Instagram">
+                <img class="footer__social-img" src="images/inst.png" alt="Instagram">
+              </a>
+              <a class="footer__social-link" href="//www.behance.net/">
+                <img class="footer__social-img" src="images/beh.png" alt="Behance">
+              </a>
+              <a class="footer__social-link" href="//dribbble.com">
+                <img class="footer__social-img" src="images/drib.png" alt="Dribble">
+              </a>
+            </div>
+            <div class="footer__bottom-text">
+              <p>Like me on<br>LinkedIn, Instagram, Behance, Dribble</p>
+            </div>
           </div>
-          <div class="footer__bottom">
-            <a class="footer__social-link" href="//ru.wikipedia.org/wiki/LinkedIn">
-              <img class="footer__social-img" src="images/link.png" alt="LinkedIn">
-            </a>
-            <a class="footer__social-link" href="//ru.wikipedia.org/wiki/Instagram">
-              <img class="footer__social-img" src="images/inst.png" alt="Instagram">
-            </a>
-            <a class="footer__social-link" href="//www.behance.net/">
-              <img class="footer__social-img" src="images/beh.png" alt="Behance">
-            </a>
-            <a class="footer__social-link" href="//dribbble.com">
-              <img class="footer__social-img" src="images/drib.png" alt="Dribble">
-            </a>
-          </div>
-          <p class="footer__bottom-text">Like me on<br>LinkedIn, Instagram, Behance, Dribble</p>
         </div>
       </footer>
     </main>
