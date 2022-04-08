@@ -146,7 +146,17 @@ a:hover {
 }
 
 .about {
-  background-color: #F6F6F6;
+  min-height: 506px;
+  background: linear-gradient(180deg, #696EFF 0%, rgba(249, 202, 238, 0) 100%);
+  background-color: #f6f6f6;
+  background-size: 100% 0.00001%;
+  background-repeat: no-repeat;
+  transition: all 1s linear;
+}
+
+.about:hover {
+  background-size: 100% 100%;
+  transition: all 1s linear;
 }
 
 .about__inner {
