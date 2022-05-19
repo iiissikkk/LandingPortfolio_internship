@@ -38,7 +38,6 @@ body {
   max-width: 1004px;
   margin: 0 auto;
   padding: 0 30px;
-  position: relative
 }
 
 .header {
@@ -67,19 +66,19 @@ body {
   align-items: center;
   padding: 0;
 }
-  
+
 .menu::after {
   content: "";
   display: block;
   border-bottom: 1px solid #828282;
 }
-  
+
 a:link {
   text-decoration: none;
   color: #828282;
 }
   
-a:active {
+a:acti ve {
   color: #070707;
 }
   
